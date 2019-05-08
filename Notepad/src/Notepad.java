@@ -123,8 +123,6 @@ public class Notepad extends JFrame{
 			}
 		});
 		
-		
-		
 		txtarea.addMouseListener(new MouseAdapter() {
 			public void mouseReleased(MouseEvent e) {
 				// TODO Auto-generated method stub
@@ -134,7 +132,6 @@ public class Notepad extends JFrame{
 				}
 			}
 		});
-		
 		
 		mt5.addActionListener(new ActionListener() {
 			
@@ -246,9 +243,6 @@ public class Notepad extends JFrame{
 			}
 		});
 		
-		
-		
-		
 		mt2.addActionListener(new ActionListener() {
 			
 			@Override
@@ -286,7 +280,6 @@ public class Notepad extends JFrame{
 					
 					setTitle("Gaurav-"+f.getName());
 				}
-				
 				
 			}
 		});
@@ -401,7 +394,6 @@ public class Notepad extends JFrame{
 			}
 		});
 		
-		
 		mt11.addActionListener(new ActionListener() {
 			
 			@Override
@@ -410,9 +402,6 @@ public class Notepad extends JFrame{
 				About a=new About();
 			}
 		});
-		
-		
-		
 		
 		/*mt4.addActionListener(new ActionListener() {
 			
@@ -464,11 +453,6 @@ public class Notepad extends JFrame{
 			}
 		});*/
 		
-		
-		
-		
-		
-		
 		/*txtarea.addMouseListener(new MouseListener() {
 			
 			@Override
@@ -508,12 +492,8 @@ public class Notepad extends JFrame{
 		setDefaultCloseOperation(EXIT_ON_CLOSE);
 	}
 	
-	
 	public static void main(String[] args) {
 		Notepad n=new Notepad();
 	}
-	
-	
-	
 	
 }
